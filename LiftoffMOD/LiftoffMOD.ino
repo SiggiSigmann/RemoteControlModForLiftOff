@@ -16,10 +16,10 @@ void setup() {
 }
 
 bool s[] = {false,false,false,false,false,false,false,false};
-char c1[] = {0, 0, 'a', KEY_DOWN_ARROW, KEY_UP_ARROW, KEY_RIGHT_ARROW, KEY_LEFT_ARROW, 'r'};
-char c2[] = {0, 0, 't', 'f', 'c', KEY_RIGHT_ARROW, KEY_LEFT_ARROW, 'r'};
-char c3[] = {0, 0, 't', 'v', 'c', KEY_RIGHT_ARROW, KEY_LEFT_ARROW, 'r'};
-char c[8] = {0, 0, 'a', KEY_DOWN_ARROW, KEY_UP_ARROW, KEY_RIGHT_ARROW, KEY_LEFT_ARROW, 'r'};
+char c1[] = {0, 0, 'a',  KEY_RIGHT_ARROW, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_UP_ARROW, 'r'};
+char c2[] = {0, 0, 't', 'f', 'c', KEY_DOWN_ARROW, KEY_UP_ARROW, 'r'};
+char c3[] = {0, 0, 't', 'v', 'c', KEY_DOWN_ARROW, KEY_UP_ARROW, 'r'};
+char c[8] = {0, 0, 'a',  KEY_RIGHT_ARROW, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_UP_ARROW, 'r'};
 int switchTimer = 50;
 int mode = 0;
 
