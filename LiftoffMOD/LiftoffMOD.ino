@@ -15,6 +15,8 @@ void setup() {
   digitalWrite(12, HIGH);
 }
 
+//{not used, not used, right button, right button[up], right button[down], left button[up], left button[down], left button}
+
 bool s[] = {false,false,false,false,false,false,false,false};
 char c1[] = {0, 0, 'a',  KEY_RIGHT_ARROW, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_UP_ARROW, 'r'};
 char c2[] = {0, 0, 't', 'f', 'c', KEY_DOWN_ARROW, KEY_UP_ARROW, 'r'};
